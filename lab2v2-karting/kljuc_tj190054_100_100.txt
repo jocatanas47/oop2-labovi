@@ -1,0 +1,34 @@
+============================= PREPREKA ============================= 
+4/4p - konstruktor
+	# bolje je bilo prijaviti izuzetak za tezinu van opsega, ali svakako obraada postoji pa se ne skidaju bodovi	
+3/3p - getter
+6/6p - ispoljavanje efekta
+3/3p - ponistavanje efekta
+	# operacija bez efekta
+5/5p - clone
+4/4p - toString
+
+=============================== STAZA ==============================
+3/3p - konstruktor
+3/3p - lista deonica
+	# bolje da se koristi List<Deonica> deonice = new ArrayList<>(), tj interfejs
+6/6p - dodavanje deonice
+7/7p - dohvatanje deonice na osnovu udaljenosti od starta
+       (voditi racuna o izuzetku)
+7/7p - dohvatanje udaljenosti pocetka neke deonice od starta
+       (voditi racuna o izuzetku)
+4/4p - duzina staze
+5/5p - toString
+
+================================ TRKA =============================== 
+2/2p - konstruktor
+3/3p - dodavanje vozila
+2/2p - trenutni broj vozila
+.... - simulacija (ima vise delova pa smo podelili)
+       6/6p - samo pomeranje vozila
+       6/6p - ponistavanje i ispoljavanje specificnosti
+       6/6p - zavrsavanje trke u toku simulacije
+3/3p - plasman vozila
+3/3p - predjeni put vozila
+3/3p - da li je vozilo zavrsilo trku
+6/6p - toString
